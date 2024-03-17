@@ -1,0 +1,13 @@
+.wrapper {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+}

@@ -1,0 +1,44 @@
+.wrapper {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  width: 70vw;
+  height: 40vh;
+  display: flex;
+}
+
+.foot {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.meter {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.footText,
+.meterText,
+.header {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.noData {
+  color: #fff;
+}

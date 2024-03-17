@@ -1,0 +1,104 @@
+.boardWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  height: 75vh;
+}
+
+.formWrapper {
+  display: flex;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.infoWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footInner,
+.meterInner {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.price,
+.subheader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.input {
+  width: 350px;
+}
+
+.sumWrapper {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .input {
+    width: 250px;
+  }
+  .formWrapper {
+    font-size: 21px;
+  }
+  .price,
+  .subheader {
+    font-size: 21px;
+  }
+  .sumWrapper {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 200px;
+  }
+  .formWrapper {
+    font-size: 18px;
+  }
+  .price,
+  .subheader {
+    font-size: 18px;
+  }
+  .sumWrapper {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .formWrapper {
+    flex-direction: column;
+  }
+  .meterinner {
+    margin-top: 20px;
+  }
+  .footinner {
+    margin-top: 20px;
+  }
+  .infoWrapper{
+    margin-top: 30px;
+  }
+  .boardWrapper {
+    height: auto;
+  }
+}

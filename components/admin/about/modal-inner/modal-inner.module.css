@@ -1,0 +1,45 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.input {
+  width: 50%;
+  font-size: 20px;
+}
+
+.body img {
+  border-radius: 10px;
+}
+
+.imgHeader {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.imgHeader button {
+  margin: 0 auto;
+  display: block;
+}
+
+.imgHeader input {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+.imgLabel {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  color: rgba(256, 256, 256, 0);
+  z-index: 3000;
+}

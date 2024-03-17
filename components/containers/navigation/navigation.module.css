@@ -1,0 +1,53 @@
+.wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.2s;
+  z-index: 5;
+  font-weight: 300;
+  color: #dc3545;
+}
+
+.nonActive {
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.2s;
+  z-index: 5;
+  font-weight: 300;
+  color: #fff;
+}
+
+.nonActive:hover {
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .active{
+    font-size: 13px;
+  }
+  .nonActive{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    display: none;  
+  }
+}

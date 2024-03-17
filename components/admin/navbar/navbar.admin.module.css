@@ -1,0 +1,40 @@
+.navbarBtns {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.active {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.nonActive:hover {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.dropBtn,
+.dropBtn button {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 100 !important;
+}
+
+.loadingWrapper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 30px;
+  height: 30px;
+}

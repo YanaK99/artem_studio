@@ -1,0 +1,46 @@
+.project {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.shadow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+}
+
+.shadow:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.shadow:hover{
+  font-size: 200px;
+}
+
+.imageWrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.name {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transition: all 0.2s;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 5;
+}
+
+.name:hover {
+  color: #dc3545;
+}

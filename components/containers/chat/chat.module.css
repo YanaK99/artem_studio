@@ -1,0 +1,81 @@
+.heartsWrapper {
+  animation: heartbeat 2.5s infinite;
+  cursor: pointer;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  z-index: 10;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.85);
+  }
+  13% {
+    transform: scale(1);
+  }
+  26% {
+    transform: scale(0.85);
+  }
+  39% {
+    transform: scale(1);
+  }
+  52% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+}
+
+.chatWrapper {
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  height: 100px;
+  width: 100px;
+  z-index: 1;
+}
+
+.netsWrapper {
+  width: 100px;
+  height: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 10px;
+  left: 0px;
+  bottom: 100%;
+  transform: scale(0);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.chatWrapper:hover .netsWrapper {
+  transform: scale(1);
+  height: 430px;
+}
+
+@media (max-width: 768px) {
+  .chatWrapper {
+    height: 80px;
+    width: 80px;
+  }
+  .netsWrapper {
+    width: 80px;
+  }
+  .chatWrapper:hover .netsWrapper {
+    transform: scale(1);
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .chatWrapper {
+    right: 20px;
+  }
+}

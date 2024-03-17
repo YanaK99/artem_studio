@@ -1,0 +1,72 @@
+.wrapperLoading {
+  height: calc(100% - 60px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text {
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textProjectName {
+  font-size: 25px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.info {
+  width: 70vw;
+  height: 70vh;
+  background-color: green;
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
+.imagesWrapper {
+  width: 80%;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 20%;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.projectImg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}

@@ -1,0 +1,96 @@
+.boardWrapper {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.textWrapper {
+  flex: 1;
+  height: 75vh;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.photoWrapper {
+  flex: 1;
+  height: 75vh;
+  padding: 40px;
+  padding-left: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgWraper {
+  height: 80%;
+  width: 80%;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  .textWrapper {
+    padding-left: 45px;
+    padding-right: 0px;
+  }
+  .imgWraper {
+    height: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .chatWrapper {
+  }
+}
+
+@media (max-width: 768px) {
+  .textWrapper {
+    padding-left: 30px;
+    flex: 2;
+  }
+  .photoWrapper {
+    padding: 20px;
+    flex: 3;
+    padding-left: 0px;
+  }
+  .boardWrapper {
+    font-size: 15px;
+    flex-direction: column-reverse;
+  }
+  .imgWraper {
+    height: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .photoWrapper {
+    height: 400px;
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .textWrapper {
+    height: 200px;
+    padding: 30px;
+  }
+  .imgWraper {
+    height: 100%;
+  }
+  .image {
+    height: 100%;
+  }
+}

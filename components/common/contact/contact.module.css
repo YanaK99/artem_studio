@@ -1,0 +1,44 @@
+.net {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.netSmall {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.netBig {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.net img,
+.netBig img,
+.netSmall img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .chatWrapper {
+    height: 80px;
+    width: 80px;
+  }
+  .netBig {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text {
+  }
+}

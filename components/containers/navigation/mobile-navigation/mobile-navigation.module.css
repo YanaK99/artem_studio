@@ -1,0 +1,26 @@
+.wrapper {
+  display: none;
+  background-color: #212529 !important;
+}
+
+.backGround {
+  background-color: #212529 !important;
+}
+
+.active {
+  color: #dc3545;
+}
+
+.nonActive {
+  color: #fff;
+}
+
+.nonActive:hover {
+  color: #dc3545;
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    display: block;
+  }
+}

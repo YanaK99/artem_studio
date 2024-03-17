@@ -1,0 +1,66 @@
+.wrapper {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.nets {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+.netsConstact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.netsConstact span {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .netsConstact span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 576px) {
+  .netsConstact {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .netsConstact span {
+    font-size: 15px;
+  }
+  .wrapper {
+    padding: 0px;
+  }
+}
